@@ -7,8 +7,8 @@ Drone plugin to add Repo Status to a commit.
 Build the binary with the following commands:
 
 ```
+go test ./...
 go build
-go test
 ```
 
 ## Docker
