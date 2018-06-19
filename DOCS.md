@@ -64,13 +64,13 @@ pipeline:
 : file to read status from, defaults to `failure` if defined and not found
 
 `state`
-: user defined state to set for status.  defaults to drone build status.
+: user defined state to set for status.  Defaults to Drone build status.
 
 `target_url`
-: URL for status to link to
+: URL for status to link to.  Defaults to link to Drone build.
 
 `password`
-: github password to authenticate with
+: github password to authenticate with.  Defaults to creds used in pipeline so you should not need to set this.
 
 `username`
-: github username to authenticate with
+: github username to authenticate with.  Defaults to creds used in pipeline so you should not need to set this.
